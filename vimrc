@@ -1,5 +1,36 @@
+"关闭兼容模式
+set nocompatible
+
 "显示行号
 set number
+
+"打开自动缩进
+set autoindent
+
+"tab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+
+"在屏幕右下角显示未完成的指令输入
+set showcmd
+
+set showmatch
+
+"关闭备份
+set nobackup
+
+"智能搜索
+set smartcase
+
+"搜索时忽略大小写
+set ignorecase
+
+"打开搜索高亮模式
+set hlsearch
+
+"打开增量搜索模式
+set incsearch
 
 "设置tab为4个空格
 set tabstop=4
