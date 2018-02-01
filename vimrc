@@ -35,6 +35,11 @@ set incsearch
 "设置tab为4个空格
 set tabstop=4
 
+"设置折叠
+set foldenable
+set foldmethod=syntax
+set foldlevelstart=99     "打开文件默认不折叠代码
+
 "颜色主题
 set t_Co=256
 
