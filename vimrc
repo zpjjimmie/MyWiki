@@ -35,7 +35,14 @@ set incsearch
 "设置tab为4个空格
 set tabstop=4
 
+"颜色主题
 set t_Co=256
+
+"gruvbox
+set background=dark
+leg g:gruvbox_termcolors=256
+let g:gruvbox_contrast_dark="hard"
+colorscheme gruvbox
 
 tips: python中,打开别人的文件,可能格式和自己的不一样
 set list 显示tab和空格:tab为^I 空格为$
