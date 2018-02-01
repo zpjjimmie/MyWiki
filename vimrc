@@ -49,6 +49,8 @@ leg g:gruvbox_termcolors=256
 let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
 
+set tags=tags;/
+
 tips: python中,打开别人的文件,可能格式和自己的不一样
 set list 显示tab和空格:tab为^I 空格为$
 set expandtab 将tab转换为空格
